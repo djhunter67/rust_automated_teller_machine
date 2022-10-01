@@ -2,7 +2,16 @@
 name = "rust_automated_teller_machine"
 version = "0.1.0"
 edition = "2021"
+author = ["Hunter, Christerpher <djhunter67@gmail.com>"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "rust_automated_teller_machine"
+path = "src/lib.rs"
+
+[[bin]]
+name = "rust_automated_teller_machine"
+path = "src/bin.rs"
 
 [dependencies]
